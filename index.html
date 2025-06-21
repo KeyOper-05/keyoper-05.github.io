@@ -1,1 +1,104 @@
-Hello World
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>个人主页 | LyuHongkun</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.75rem 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h2 {
+      border-left: 4px solid #666;
+      padding-left: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+    ul li i {
+      margin-right: 0.5rem;
+      color: #007BFF;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LyuHongkun 的个人主页</h1>
+    <p>欢迎访问 | 简约 · 高效 · 学术导向</p>
+  </header>
+
+  <nav>
+    <a href="index.html"><i class="fas fa-home"></i> 首页</a>
+    <a href="work.html"><i class="fas fa-briefcase"></i> 个人工作</a>
+    <a href="notes.html"><i class="fas fa-book"></i> 课程资料与笔记</a>
+    <a href="uploads.html"><i class="fas fa-upload"></i> 文件下载</a>
+    <a href="https://github.com/KeyOper-05" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2><i class="fas fa-graduation-cap"></i> 学历背景</h2>
+      <ul>
+        <li><strong>本科：</strong> XXX大学 计算机科学与技术（2018 - 2022）</li>
+        <li><strong>硕士：</strong> XXX大学 人工智能（2022 - 至今）</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="fas fa-info-circle"></i> 简介</h2>
+      <p>热爱人工智能、编程与教育技术，专注于算法优化、模型训练与教学辅助工具研发。目标是将技术转化为高效实用的解决方案。</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 LyuHongkun. 保留所有权利。
+  </footer>
+</body>
+</html>
