@@ -8,6 +8,9 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "Story Planner"
+    url: https://keyoper-05.github.io/story-planner/
+
   - title: "Publications"
     url: /publications/
 
