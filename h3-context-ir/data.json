@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T02:17:36.742409+00:00",
+  "updated_at": "2026-11-02T06:10:52.553398+00:00",
   "cases": [
     {
       "id": "001",
@@ -858,9 +858,9 @@
       "camera": "固定左侧90°",
       "frames": 345,
       "context": {
-        "state": "running",
+        "state": "complete",
         "step": [
-          25,
+          50,
           50
         ],
         "refs": [
@@ -953,7 +953,7 @@
             1344
           ]
         },
-        "output": null,
+        "output": "assets/006/context/output.mp4",
         "path": "11_01_h3_context_ir/006"
       },
       "ours": null
@@ -965,8 +965,11 @@
       "camera": "固定正面",
       "frames": 345,
       "context": {
-        "state": "queued",
-        "step": null,
+        "state": "complete",
+        "step": [
+          50,
+          50
+        ],
         "refs": [
           {
             "url": "assets/007/context/ref_1.mp4",
@@ -1057,7 +1060,7 @@
             1344
           ]
         },
-        "output": null,
+        "output": "assets/007/context/output.mp4",
         "path": "11_01_h3_context_ir/007"
       },
       "ours": null
